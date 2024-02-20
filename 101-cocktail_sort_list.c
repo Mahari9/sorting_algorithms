@@ -68,7 +68,7 @@ void cocktail_sort_list(listint_t **list)
 				print_list(*list);
 			}
 			else
-				current = current->prev;
+				curr = curr->prev;
 		}
 	}
 }
