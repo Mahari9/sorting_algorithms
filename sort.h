@@ -37,6 +37,7 @@ void merge_sort(int *array, size_t size);
 void swap_int(int *i, int *j);
 void heapify(int *array, size_t size, size_t b, size_t r);
 void heap_sort(int *array, size_t size);
-
+void radix_sort(int *array, size_t size);
+void count_srt(int *array, size_t size, int curr_digit);
 
 #endif
