@@ -42,5 +42,7 @@ void count_srt(int *array, size_t size, int curr_digit);
 void merge_bitonic(int *array, int left, int right, int drxn);
 void recursive_bitonic(int *array, int left, int right, int drxn, size_t size);
 void bitonic_sort(int *array, size_t size);
-
+void quick_sort_hoare(int *array, size_t size);
+void qksrt_h(int *array, size_t size, int left, int right);
+int hoare_prtn(int *array, size_t size, int left, int right);
 #endif
