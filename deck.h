@@ -48,9 +48,9 @@ typedef struct deck_node_s
 } deck_node_t;
 
 int ma_strcmp(const char *str1, const char *str2);
-deck_node_t *swap(deck_node_t *card, deck_node_t **deck);
-int get_card_value(deck_node_t *node);
+char get_card_value(deck_node_t *node);
 void insertion_sort_deck(deck_node_t **deck);
+void insertion_sort_value(deck_node_t **deck);
 void sort_deck(deck_node_t **deck);
 
 #endif
