@@ -39,5 +39,8 @@ void heapify(int *array, size_t size, size_t b, size_t r);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void count_srt(int *array, size_t size, int curr_digit);
+void merge_bitonic(int *array, int left, int right, int drxn);
+void recursive_bitonic(int *array, int left, int right, int drxn, size_t size);
+void bitonic_sort(int *array, size_t size);
 
 #endif
