@@ -3,7 +3,7 @@
 /**
  * bubble_sort - Sorts int array in ascending order using Bubble sort algorithm
  * @array: The array of integers to be sorted
- * @size: Number of elements in the array
+ * @size: Number of elements in an array
  * Return: Nothing
  */
 void bubble_sort(int *array, size_t size)
